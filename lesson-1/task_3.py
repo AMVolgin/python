@@ -1,4 +1,4 @@
 print("П3")
-enter_dig = int(input("Введите целое число: "))
-result = enter_dig + enter_dig*enter_dig + enter_dig*enter_dig*enter_dig
-print("Результат: ", result)
+n = int(input("Enter digital: "))
+print("Digital, n%d" % n)
+
