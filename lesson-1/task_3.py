@@ -1,4 +1,4 @@
 print("П3")
 n = int(input("Enter digital: "))
-print("Digital, n%d" % n)
+print("%02d:%02d:%02d" % {n})
 
