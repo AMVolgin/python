@@ -1,8 +1,17 @@
-def int_func(lst_words):
-    for i in lst_words:
-        lst_words.append(lst_words[i])
-    print(lst_words)
+# часть 1
+def int_func(string):
+    return string.title()
+print(int_func("text"))
 
-my_words = input("Введите слово: ").split()
-int_func(my_words)
+# часть 2
+def title_func(string):
+    list_title = []
+    lst = string.split()
+    for el in lst:
+        list_title.append(int_func(el))
+    print(*list_title)
+
+my_str = input("Введите строку: ")
+title_func(my_str)
+
 
