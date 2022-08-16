@@ -6,5 +6,6 @@ print(a)
 print(b)
 name = input("Введите ваше имя: ")
 age = input("Введите ваш возраст: ")
+
 print(f"Ваше имя: , {name}")
 print(f"Ваш возраст: , {age}")
