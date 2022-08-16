@@ -6,3 +6,4 @@ comp = n + int(t1) + int(t2)
 print("Результат равен:", comp)
 
 
+
