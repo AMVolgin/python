@@ -1,0 +1,20 @@
+{
+   "Predmet1": {
+      "predmet": "Informatic:",
+      "lections": "100-lections",
+      "practics": "50-practics",
+      "labs": "20-labs"
+   },
+   "Predmet5": {
+      "predmet": "Physics:",
+      "lections": "30-lections",
+      "practics": "10-practics",
+      "labs": "0-labs"
+   },
+   "Predmet9": {
+      "predmet": "Fitnes:",
+      "lections": "0-lections",
+      "practics": "30-practics",
+      "labs": "0-labs"
+   }
+}
