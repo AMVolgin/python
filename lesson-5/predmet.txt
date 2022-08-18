@@ -1,0 +1,3 @@
+Informatic: 100-lections 50-practics 20-labs
+Physics: 30-lections 10-practics 0-labs
+Fitnes: 0-lections 30-practics 0-labs
