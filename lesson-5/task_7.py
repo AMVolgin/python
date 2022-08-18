@@ -6,9 +6,9 @@ import json
 average_profit = 0
 filename = 'firms.txt'
 dict1 = {}
-dict3 = {}
+dict3 = {"average_profit":""}
 fields = ['name', 'class', 'prihod', 'rashod', 'profit']
-fielsd2 = ['average_profit']
+
 
 with open(filename, "r", encoding='utf-8') as f_firms:
     l = 1
@@ -29,7 +29,8 @@ with open(filename, "r", encoding='utf-8') as f_firms:
          l = l + 1
     out_file = open("firms.json", "w")
     json.dump(dict1, out_file, indent=3)
-print(average_profit)
+dict3["average_profit"] = average_profit
+json.dump(dict3, out_file, indent=1)
 out_file.close()
 f_firms.close()
 
