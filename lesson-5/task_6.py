@@ -22,4 +22,4 @@ with open(filename, "r", encoding='utf-8') as fh:
             out_file = open("predmet.json", "w")
             json.dump(dict1, out_file, indent=3)
             out_file.close()
-            fh.close()
+fh.close()
