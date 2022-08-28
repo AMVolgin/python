@@ -6,7 +6,7 @@ class Coat(Clothes):
         self.name = "coat"
         self.V = ""
 
-    def sizeCloth(self, V):
+    def size_cloth(self, V):
         size_cloth = round(((int(V) / 6.5) + 0.5), 2)
         print(f"Для пальто нужно {size_cloth} материала")
         return  size_cloth
@@ -28,7 +28,7 @@ class AllCloth(Coat, Suit):
 
 cc = Coat("V")
 tmp_v = input(f"Введите рост для пальто: {cc.V}")
-tmp_cloth = cc.sizeCloth(tmp_v)
+tmp_cloth = cc.size_cloth(tmp_v)
 ss = Suit("H")
 tmp_h = input(f"Введите размер для костюма: {ss.H}")
 tmp_suit = ss.sizeSuit(tmp_h)
