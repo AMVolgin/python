@@ -31,4 +31,3 @@ mm.__str__(mm1)
 mm.show_matrix(mm1)
 print("\n")
 mm.__add__(mm1, mm2)
-//ggg
