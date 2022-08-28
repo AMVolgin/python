@@ -21,8 +21,8 @@ class Suit(Clothes):
         print(f"Для пальто нужно {size_suit} материала")
         return size_suit
 
-class allCloth(Coat, Suit):
-    def summaryCloth(self, ssize_suit, ssize_cloth):
+class AllCloth(Coat, Suit):
+    def summary_cloth(self, ssize_suit, ssize_cloth):
         summary = round(int(ssize_suit) + int(ssize_cloth), 2)
         print(f"Ткани на одежду: {summary}")
 
@@ -32,7 +32,7 @@ tmp_cloth = cc.sizeCloth(tmp_v)
 ss = Suit("H")
 tmp_h = input(f"Введите размер для костюма: {ss.H}")
 tmp_suit = ss.sizeSuit(tmp_h)
-ac = allCloth("ALL CLOTH")
-ac.summaryCloth(tmp_suit, tmp_cloth)
+ac = AllCloth("ALL CLOTH")
+ac.summary_cloth(tmp_suit, tmp_cloth)
 
 
